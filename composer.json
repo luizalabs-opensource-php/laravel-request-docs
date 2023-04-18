@@ -1,13 +1,20 @@
 {
-    "name": "luizalabs-opensource-php/laravel-request-docs",
+    "name": "Luizalabs-opensource-php/laravel-request-docs",
     "description": "Automatically generate Laravel docs from request rules, controllers and routes, rakutentech fork",
     "keywords": [
         "rakutentech-fork",
         "laravel",
         "laravel-request-docs"
     ],
-    "homepage": "https://github.com/luizalabs-opensource-php/laravel-request-docs",
+    "homepage": "https://github.com/Luizalabs-opensource-php/laravel-request-docs",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Pulkit Kathuria",
+            "email": "pulkit.kathuria@rakuten.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "illuminate/contracts": "^8.37|^9.0",
@@ -28,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "luizalabs-opensource-php\\LaravelRequestDocs\\": "src"
+            "Rakutentech\\LaravelRequestDocs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "luizalabs-opensource-php\\LaravelRequestDocs\\Tests\\": "tests"
+            "Rakutentech\\LaravelRequestDocs\\Tests\\": "tests"
         }
     },
     "files": [
@@ -51,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "luizalabs-opensource-php\\LaravelRequestDocs\\LaravelRequestDocsServiceProvider"
+                "Rakutentech\\LaravelRequestDocs\\LaravelRequestDocsServiceProvider"
             ],
             "aliases": {
-                "LaravelRequestDocs": "luizalabs-opensource-php\\LaravelRequestDocs\\LaravelRequestDocsFacade"
+                "LaravelRequestDocs": "Rakutentech\\LaravelRequestDocs\\LaravelRequestDocsFacade"
             }
         }
     },
