@@ -1,12 +1,12 @@
 {
-    "name": "Luizalabs-opensource-php/laravel-request-docs",
+    "name": "luizalabs-opensource-php/laravel-request-docs",
     "description": "Automatically generate Laravel docs from request rules, controllers and routes, rakutentech fork",
     "keywords": [
         "rakutentech-fork",
         "laravel",
         "laravel-request-docs"
     ],
-    "homepage": "https://github.com/Luizalabs-opensource-php/laravel-request-docs",
+    "homepage": "https://github.com/luizalabs-opensource-php/laravel-request-docs",
     "license": "MIT",
     "require": {
         "php": "^7.4|^8.0",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Luizalabs-opensource-php\\LaravelRequestDocs\\": "src"
+            "luizalabs-opensource-php\\LaravelRequestDocs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Luizalabs-opensource-php\\LaravelRequestDocs\\Tests\\": "tests"
+            "luizalabs-opensource-php\\LaravelRequestDocs\\Tests\\": "tests"
         }
     },
     "files": [
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Luizalabs-opensource-php\\LaravelRequestDocs\\LaravelRequestDocsServiceProvider"
+                "luizalabs-opensource-php\\LaravelRequestDocs\\LaravelRequestDocsServiceProvider"
             ],
             "aliases": {
-                "LaravelRequestDocs": "Luizalabs-opensource-php\\LaravelRequestDocs\\LaravelRequestDocsFacade"
+                "LaravelRequestDocs": "luizalabs-opensource-php\\LaravelRequestDocs\\LaravelRequestDocsFacade"
             }
         }
     },
