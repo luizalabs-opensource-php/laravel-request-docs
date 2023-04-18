@@ -1,12 +1,12 @@
 {
-    "name": "Luizalabs-opensource-php/laravel-request-docs",
+    "name": "luizalabs-opensource-php/laravel-request-docs",
     "description": "Automatically generate Laravel docs from request rules, controllers and routes, rakutentech fork",
     "keywords": [
         "rakutentech-fork",
         "laravel",
         "laravel-request-docs"
     ],
-    "homepage": "https://github.com/Luizalabs-opensource-php/laravel-request-docs",
+    "homepage": "https://github.com/luizalabs-opensource-php/laravel-request-docs",
     "license": "MIT",
     "authors": [
         {
